@@ -1,0 +1,78 @@
+/**
+ * Design Tokens - CSS Variables
+ * Centralized design system variables for consistent styling
+ */
+
+:root {
+  /* Colors */
+  --color-primary-start: #667eea;
+  --color-primary-end: #764ba2;
+  --color-primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  
+  --color-white: #ffffff;
+  --color-white-transparent-20: rgba(255, 255, 255, 0.2);
+  --color-white-transparent-30: rgba(255, 255, 255, 0.3);
+  --color-white-transparent-95: rgba(255, 255, 255, 0.95);
+  
+  --color-text-primary: #213547;
+  --color-text-secondary: #666;
+  --color-text-tertiary: #555;
+  --color-text-light: #333;
+  
+  --color-border: #ddd;
+  --color-border-light: rgba(255, 255, 255, 0.3);
+  --color-border-light-20: rgba(255, 255, 255, 0.2);
+  
+  --color-error: #c33;
+  --color-error-bg: #fee;
+  
+  --color-success: #28a745;
+  --color-warning: #ffc107;
+  --color-danger: #dc3545;
+  
+  /* Status colors */
+  --color-status-success: #28a745;
+  --color-status-warning: #ffc107;
+  --color-status-danger: #dc3545;
+  --color-status-info: #17a2b8;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 2.5rem;
+  --spacing-3xl: 3rem;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 12px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.1);
+  
+  /* Typography */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  
+  /* Transitions */
+  --transition-fast: 0.2s;
+  --transition-base: 0.3s;
+  
+  /* Z-index */
+  --z-index-dropdown: 1000;
+  --z-index-modal: 2000;
+}
+
