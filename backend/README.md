@@ -151,6 +151,8 @@ src/
 
 ## 📊 Endpoints da API
 
+> 📄 **Documentação completa:** Para ver a documentação detalhada de todos os endpoints (parâmetros, validações, respostas), consulte o arquivo [API_ENDPOINTS.md](./API_ENDPOINTS.md).
+
 ### 🔐 Autenticação (Públicos)
 - `POST /api/auth/sign-in` - Registrar novo usuário (cria user + customer)
 - `POST /api/auth/login` - Login com nickname e senha
