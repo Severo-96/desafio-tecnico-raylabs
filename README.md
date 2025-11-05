@@ -1,3 +1,5 @@
+# desafio-tecnico-raylabs
+
 # 🐳 Rodar Frontend e Backend com Docker
 
 Este guia simples e rápido mostra como rodar o projeto (frontend e backend) usando apenas Docker, **sem precisar instalar Node.js, npm, npx ou qualquer outra ferramenta localmente**.
@@ -194,4 +196,3 @@ docker-compose up
 - **Frontend**: Pode ser iniciado independentemente, mas precisa que o backend esteja rodando na porta 3000
 - Todos os `node_modules` são isolados dentro dos containers (não são copiados para o host)
 - **Vantagem dos docker-compose separados**: Você pode ver logs separados, reiniciar apenas um serviço, e ter melhor controle sobre cada parte da aplicação
-# desafio-tecnico-raylabs
