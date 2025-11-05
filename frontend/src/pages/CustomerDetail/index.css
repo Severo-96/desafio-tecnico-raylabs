@@ -1,0 +1,150 @@
+.customer-detail-page {
+  padding: 2rem 0;
+}
+
+
+.customer-detail-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+}
+
+.customer-detail-section {
+  margin-bottom: 2rem;
+}
+
+.customer-detail-section:last-child {
+  margin-bottom: 0;
+}
+
+.customer-detail-header-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #eee;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.customer-detail-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  min-width: 200px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+
+.customer-detail-section h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.customer-detail-section:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.customer-detail-section-divider {
+  height: 0;
+  border-bottom: 1px solid #f0f0f0;
+  margin: 1.5rem 0;
+}
+
+.customer-role-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.customer-role-badge.role-has-user {
+  background: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.detail-row {
+  padding: 0.875rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  align-items: flex-start;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #555;
+  min-width: 180px;
+  margin-right: 1rem;
+  line-height: 1.5;
+}
+
+.detail-value {
+  color: #333;
+  flex: 1;
+  line-height: 1.5;
+}
+
+
+.customer-detail-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.orders-btn {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.orders-btn:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .customer-detail-page {
+    padding: 1rem;
+  }
+
+  .customer-detail-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .detail-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .detail-label {
+    min-width: auto;
+  }
+
+  .customer-detail-footer {
+    justify-content: center;
+  }
+}
+
